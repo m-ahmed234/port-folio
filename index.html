@@ -368,7 +368,7 @@
         e.preventDefault();
         fetch(scriptURL, { method: "POST", body: new FormData(form) })
           .then((response) => {
-            msg.innerHTML="Submitted Succesfully!!!"
+            msg.innerHTML="Submitted Successfully!!!"
             setTimeout(function(){
               msg.innerHTML=""
             }, 3000);
